@@ -27,6 +27,7 @@ public class Main {
         Vehicle motor = new Motorcycle(2, "xe may", "2 cho", 23451, 3);
         Vehicle truck = new Truck(3, "xe tai", "3 cho", 54321, 4);
 
+
         Main main = new Main();
         main.add(car);
         main.add(motor);

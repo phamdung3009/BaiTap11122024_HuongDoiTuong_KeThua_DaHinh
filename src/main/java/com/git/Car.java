@@ -8,6 +8,14 @@ public class Car extends Vehicle {
         this.numberOfSeats = numberOfSeats;
     }
 
+    public int getNumberOfSeats() {
+        return numberOfSeats;
+    }
+
+    public void setNumberOfSeats(int numberOfSeats) {
+        this.numberOfSeats = numberOfSeats;
+    }
+
     @Override
     public int calculateParkingFee() {
         return numberOfSeats * 2;

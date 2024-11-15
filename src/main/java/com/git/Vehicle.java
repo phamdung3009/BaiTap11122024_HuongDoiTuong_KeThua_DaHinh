@@ -1,6 +1,6 @@
 package com.git;
 
-public abstract class Vehicle {
+public class Vehicle {
     private int id;
     private String brand;
     private String model;
@@ -48,7 +48,10 @@ public abstract class Vehicle {
         this.licensePlate = licensePlate;
     }
 
-    public abstract int calculateParkingFee();
+    public int calculateParkingFee() {
+        return 0;
+    }
+
 
     @Override
     public String toString() {
